@@ -6,9 +6,9 @@ Console.Clear();
 float score = 0;
 
 // Question 1
-Console.WriteLine("How many players are there on each team in cricket?\n");
+Console.WriteLine("How many players on the basketaball team?\n");
 string answer1 = Console.ReadLine().ToLower();
-if (answer1 == "eleven" || answer1 == "11") {
+if (answer1 == "five" || answer1 == "5") {
     score++;
     Console.WriteLine("\nCorrect!\n");
 } else {
@@ -16,7 +16,7 @@ if (answer1 == "eleven" || answer1 == "11") {
 }
 
 // Question 2
-Console.WriteLine("How many sets of wickets are there on a cricket pitch?\n");
+Console.WriteLine("How many teams are on the court?\n");
 string answer2 = Console.ReadLine().ToLower();
 if (answer2 == "two" || answer2 == "2") {
     score++;
@@ -26,7 +26,7 @@ if (answer2 == "two" || answer2 == "2") {
 }
 
 // Question 3
-Console.WriteLine("What is the highest amount of runs that can be scored off a single delivery?\n");
+Console.WriteLine("how many rings does mj have?\n");
 string answer3 = Console.ReadLine().ToLower();
 if (answer3 == "6" || answer3 == "six") {
     score++;
@@ -36,9 +36,9 @@ if (answer3 == "6" || answer3 == "six") {
 }
 
 // Question 4
-Console.WriteLine("What is the longest time a Cricket game can last?\n");
+Console.WriteLine("What is the longest time a basketball game can last?\n");
 string answer4 = Console.ReadLine().ToLower();
-if (answer4 == "5 days" || answer4 == "5days" || answer4 == "five days") {
+if (answer4 == "2 hours" || answer4 == "2hours" || answer4 == "two hours") {
     score++;
     Console.WriteLine("\nCorrect!\n");
 } else {
@@ -46,9 +46,9 @@ if (answer4 == "5 days" || answer4 == "5days" || answer4 == "five days") {
 }
 
 // Question 5
-Console.WriteLine("Which nation won the last Cricket World Cup?\n");
+Console.WriteLine("Which basketball team on this year?\n");
 string answer5 = Console.ReadLine().ToLower();
-if (answer5 == "england") {
+if (answer5 == "nuggets") {
     score++;
     Console.WriteLine("\nCorrect!\n");
 } else {
